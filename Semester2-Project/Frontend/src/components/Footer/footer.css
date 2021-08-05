@@ -1,0 +1,100 @@
+.footerContent{
+  color: white;
+  background-color: #e4e39e;
+     position: relative;
+     margin-top: 60px;
+     width: 100%;
+}
+footer
+{
+  padding-left: 200px;
+  padding-right: 200px;
+  background-color: #0faca4;
+  min-height: 200px;
+  margin-top: 100px;
+  z-index: -1;
+}
+
+.popularSearches a::after
+{
+  content: " | "
+}
+footer hr
+{
+  display: inline-block;
+  border: 1px solid silver;
+}
+footer a
+{
+  text-decoration: none;
+  color: gray;
+  font-size: 15px;
+  font-weight: lighter;
+}
+footer a:hover
+{
+  text-decoration: none;
+  color: gray;
+  cursor:pointer;
+}
+.jumbotron p
+{
+  color: white;
+  font-size: 12px;
+  font-weight: bolder;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+.jumbotron
+{
+     
+      background-color: cornflowerblue;
+}
+.desktop-original {
+    /* display: inline-block; */
+    float: left;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+.sprites-original {
+    background-position: -421.5px 0px;
+    width: 47.5px;
+    height: 40px;
+}
+.myntraweb-footer-sprite {
+    background: url(https://assets.myntassets.com/assets/images/2017/2/3/11486103069298-footerSprite.png);
+    background-size: 706px 49px;
+    display: inline-block;
+}
+.desktop-return {
+    /* display: inline-block; */
+    float: left;
+    margin-right: 15px;
+}
+.sprites-return {
+    background-position: -469.5px 0px;
+    width: 34.5px;
+    height: 40px;
+}
+.desktop-delivery {
+    /* display: inline-block; */
+    float:left;
+    margin-right: 15px;
+}
+
+.sprites-delivery {
+    background-position: -504.5px 0px;
+    width: 38px;
+    height: 40px;
+}
+.desktop-section
+{
+  padding: 20px;
+}
+.list-unstyled{
+     font-size: 130%;
+}
+p.popularSearches{
+     padding: auto;
+     text-align: center;
+}
